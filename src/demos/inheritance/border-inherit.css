@@ -8,11 +8,12 @@ body {
   padding: 5%;
   background-color: #282a2e;
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
 }
 
 h1 {
-  padding: 4px;
-  border: 4px solid #ed6742;
+  padding: 10px;
+  border: 1px solid #ed6742;
   color: #ed6742;
   font-size: 30px;
   font-weight: 700;
@@ -24,9 +25,9 @@ h1 {
 span {
   display: block;
   border: inherit;
-  padding: 4px;
+  padding: 10px;
 }
 
 span + span {
-  margin-top: 4px;
+  margin-top: 10px;
 }

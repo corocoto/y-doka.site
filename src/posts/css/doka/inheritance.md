@@ -47,7 +47,7 @@ summary:
 
 ```css
 h1 {
-  border: 4px solid #ED6742;
+  border: 1px solid #ED6742;
   color: #ED6742;
 }
 span {
@@ -90,7 +90,7 @@ span {
 ```css
 .magic-btn {
   padding: 15px;
-  color: orange;
+  color: pink;
   border: 1px solid;
   border-color: currentColor;
   background-color: transparent;
