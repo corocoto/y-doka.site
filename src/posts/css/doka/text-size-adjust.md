@@ -2,12 +2,10 @@
 title: "text-size-adjust"
 name: text-size-adjust
 author: Roman_Ganin
-co-authors:
-designers:
-contributors:
 summary:
   - text-size-adjust
   - текст
+  - font-size
 ---
 
 ## Кратко
