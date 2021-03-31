@@ -7,7 +7,7 @@ summary:
   - контейнер
   - том
   - tmpfs
-  — volume
+  - volume
   - bind
   - container
 ---
