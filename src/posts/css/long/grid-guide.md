@@ -365,21 +365,17 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
   background-color: purple;
 }
 
-.item2,
-.item3,
-.item4 {
+.item2 {
   grid-area: content;
   background-color: gray;
 }
 
-.item5,
-.item6,
-.item7 {
+.item3 {
   grid-area: 👾;
   background-color: pink;
 }
 
-.item9 {
+.item4 {
   grid-area: footer;
   background-color: #bada55;
 }
