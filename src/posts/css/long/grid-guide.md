@@ -463,16 +463,16 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 
 ### `gap`
 
-Шорткат для записи значений свойств `row-gap` и `column-gap`. Значения разделяются слэшем `/`:
+Шорткат для записи значений свойств `row-gap` и `column-gap`. Значения разделяются пробелом:
 
 ```css
 .container {
   display: grid;
   grid-template-columns: 1fr 200px 1fr;
   grid-template-rows: repeat(3, 150px);
-  gap: 50px / 10px;
+  gap: 50px 10px;
   /* И добавляем свойство для старых браузеров */
-  grid-gap: 50px / 10px;
+  grid-gap: 50px 10px;
 }
 ```
 
