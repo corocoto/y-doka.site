@@ -2,6 +2,8 @@
 title: "place-items"
 name: place-items
 author: ABatickaya
+contributors:
+  - corocoto
 summary:
   - выравнивание в гридах
   - шорткат
@@ -9,20 +11,20 @@ summary:
 
 ## Кратко
 
-Шорткат для указания значений сразу и для `align-items` и для `justify-content`. Указывать нужно именно в таком порядке.
+Шорткат для указания значений сразу и для `align-items` и для `justify-items`. Указывать нужно именно в таком порядке.
 
 ## Пример
 
 ```css
 .container {
   display: grid;
-  place-items: stretch / end;
+  place-items: stretch end;
 }
 ```
 
 ## Как пишется
 
-Пишутся два доступных значения для свойств [`align-items`](/css/doka/align-items) и [`justify-content`](/css/doka/justify-content), разделённые слэшем.
+Пишутся два доступных значения для свойств [`align-items`](/css/doka/align-items) и [`justify-items`](/css/doka/justify-items), разделённые пробелом.
 
 ## Подсказки
 
